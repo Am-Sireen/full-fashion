@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clothing Store</title>
+  <link rel="stylesheet" href="style1.css">
+  <script src="script1.js"></script>
+  <script src="script2.js"></script>
+  
+</head>
+<body>
+     <!-- The first Section in the site -->
+     <div id="first-section">
+     <h1 id="first-title">Full Fashion</h1>
+     <p id="first-text">Style that speaks *YOU*</p>
+     <button id="scroll-button" onclick="scrollToCollection()">Explore the Collection!</button></div>
+	  
+     <div id="shared-background-section">
+	 <!-- Parent Div for First Section and Collection Section -->
+	 <div id="mid"></div>
+	  
+	 <!-- Flex Container -->
+     <div id="image-buttons-container">
+      <!-- Right Background -->
+      <div id="right">
+	  <button id="glam">Glam Time👗</button></div>
+
+      <!-- Lift Background -->
+      <div id="left">
+      <button id="magic">Everyday Magic✨</button></div>
+     </div>
+	 </br></br></br>
+
+     <form id="cvForm">	
+     <div id="dressesSection" style="display: none;">
+     <h1 id="t1">GLOW& GO</h1>
+     <table>
+     <tr>
+      <td>
+		    <img src="2.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p id="name2">Beaded Evening Dress</p>
+			1499.00₪ </br>Size options:<select id="size2" name="size2">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item2" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="4.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p id="name4">Elegant Red Evening Dress</p>
+		 	599.00₪ </br>Size options:<select id="size4" name="size4">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item4" name="clothes">
+	    	</br></br></br></td>
+		
+	  <td>
+			<img src="9.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p id="name9">Black Dress With A Tail</p>
+			699.00₪ </br>Size options:<select id="size9" name="size9">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item9" name="clothes">
+		    </br></br></br></td>
+		
+	  <td>
+			<img src="10.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p id="name10">Summer Floral Dress</p>
+			299.00₪ </br>Size options:<select id="size10" name="size10">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item10" name="clothes">
+	    	</br></br></br></td>
+	 </tr>
+     <tr>
+	  <td>
+			<img src="13.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p id="name13">Elegant Party Jumpsuit</p>
+			650.00₪ </br>Size options:<select id="size13" name="size13"></br>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item13" name="clothes">
+	    	</br></br></br></td>
+      
+	  <td>
+			<img src="16.jpg" width="220" height="270" style="margin-right: 50px;" ></br>
+                         <p  id="name16">Sequin Wrap Gown</p>
+			1200.00₪ </br>Size options:<select id="size16" name="size16">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item16" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="19.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p  id="name19">Feathered Ruffle Jumpsuit</p>
+			370.00₪ </br>Size options:<select id="size19" name="size19">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item19" name="clothes">
+	    	</br></br></br></td>
+		
+	  <td>
+			<img src="20.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p  id="name20">Pink Puff Dress</p>
+			299.00₪ </br>Size options:<select id="size20" name="size20">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item20" name="clothes">
+	    	</br></br></br></td>
+     </tr>	
+     <tr>
+	  <td>
+			<img src="21.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p  id="name21">Cap-Sleeve Pearl Dress</p>
+			899.90₪ </br>Size options:<select id="size21" name="size21"></br>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item21" name="clothes">
+	    	</br></br></br></td>
+      
+	  <td>
+			<img src="22.jpg" width="220" height="270" style="margin-right: 50px;" ></br>
+                        <p  id="name22">Square Ruffled Organza Dress</p>
+			700.00₪ </br>Size options:<select id="size22" name="size22">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item22" name="clothes">
+	    	</br></br></br></td>
+   	  <td>
+			<img src="23.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p  id="name23">Golden Off-Shoulder Gown Dress</p>
+			949.90₪ </br>Size options:<select id="size23" name="size23">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item23" name="clothes">
+	    	</br></br></br></td>
+		
+	  <td>
+			<img src="24.jpg" width="220" height="270" style="margin-right: 50px;"></br>
+                        <p  id="name24">Sparkly Mermaid Dress</p>
+			1000.00₪ </br>Size options:<select id="size24" name="size24">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item24" name="clothes">
+	    	</br></br></br></td>
+     </tr>
+    </table>
+	</div>
+
+	
+     <div id="othersSection" style="display: none;">
+     <h1 id="t2">STREET& SWEET</h1>
+     <table>
+     <tr>
+      <td>
+		        <img src="1.jpg" width="220" height="270" style="margin-center: 50px;" ></br>
+                        <p id="name1">Topshop Satin Shirt</p>
+			149.90₪ </br>Size options:<select id="size1" name="size1">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item1" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="3.avif" width="220" height="270" style="margin-center: 50px;"></br>
+                         <p id="name3">Pink Puff Shirt</p>
+			299.90₪ </br>Size options:<select id="size3" name="size3"></br>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item3" name="clothes">
+		    </br></br></br></td>
+		
+	  <td>
+			<img src="5.avif" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name5">Elegant Tailored Pants</p>
+			400.00₪ </br>Size options:<select id="size5" name="size5">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item5" name="clothes">
+		    </br></br></br></td>
+
+	  <td>
+			<img src="6.jpg" width="220" height="270" style="margin-center: 50px;" ></br>
+                        <p id="name6">Yellow Linen Blazer</p>
+			229.90₪ </br>Size options:<select id="size6" name="size6">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item6" name="clothes">
+		    </br></br></br></td>
+     </tr>
+     <tr>
+	  <td>
+			<img src="7.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name7">Light Wash Jeans</p>
+			149.90₪ </br>Size options:<select id="size7" name="size7">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item7" name="clothes">
+		    </br></br></br></td>
+	  <td>
+			<img src="8.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name8">Soft Beige Wide-Leg Jumpsuit</p>
+			329.90₪ </br>Size options:<select id="size8" name="size8"></br>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item8" name="clothes">
+	    	</br></br></br></td>
+        
+	  <td>
+			<img src="11.jpg" width="220" height="270" style="margin-center: 50px;" ></br>
+                         <p id="name11">Shiny Gray Pants</p>
+			229.90₪ </br>Size options:<select id="size11" name="size11">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item11" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="12.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name12">Dark Denim Set</p>
+			309.90₪ </br>Size options:<select id="size12" name="size12">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item12" name="clothes">
+	    	</br></br></br></td>
+     </tr>
+     <tr>
+   	  <td>
+			<img src="14.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name14">Floral Quilted Sleeveless Vest</p>
+			140.00₪ </br>Size options:<select id="size14" name="size14">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item14" name="clothes">
+		    </br></br></br></td>
+		
+	  <td>
+			<img src="15.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name15">Grey Wide leg Jeans</p>
+			180.00₪ </br>Size options:<select id="size15" name="size15">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item15" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="17.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name17">Satin Mock Neck Blouse</p>
+			149.90₪ </br>Size options:<select id="size17" name="size17">
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item17" name="clothes">
+	    	</br></br></br></td>
+	  <td>
+			<img src="18.jpg" width="220" height="270" style="margin-center: 50px;"></br>
+                        <p id="name18">Black T-Shirt with 3D Flower</p>
+			199.90₪ </br>Size options:<select id="size18" name="size18"></br>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			</select></br>
+			Pick Me!<input type="checkbox" id="item18" name="clothes">
+	    	</br></br></br></td>
+		
+     </tr>
+    </table>
+    </div>
+  
+    <table id="paytable">
+    </br></br></br></br></br></br></br>
+	<tr>
+			<td>First name</br><input type="text" id="fname" name="fname" placeholder="Enter your first name"></td>
+			<td>Email</br><input type="text" id="email" name="email" placeholder="Enter email"></td>
+	</tr>
+	<tr>
+		    <td>Last name</br><input type="text" id="lname" name="lname" placeholder="Enter your last name"></td>
+			<td>Email confirmation</br><input type="text" id="emailconfirm" name="emailconfirm" placeholder="Enter email once again"></td>
+	
+	</tr>
+		
+	<tr>
+			<td>ID</br><input type="text" id="id" name="id" placeholder="id"></td>
+	        <td>Phone Number</br><input type="text" id="phoneNumber" name="phone number" placeholder="Enter phone number"></td>
+	</tr>
+	<tr>
+		    <td>Credit Card Number</br><input type="text" id="cardid" name="cardid" placeholder="Enter card number"></td>
+			<td>CVV</br><input type="text" id="cvv" name="cvv" placeholder="CVV"></td>
+	</tr>
+	<table>
+    <tr>
+     <td>Exp.Year</td>
+     <td>Exp.Month</td>  
+    </tr>
+    <tr>
+     <td>
+           <select id="expyear" name="expyear">
+             <option>2025</option>
+             <option>2026</option>
+             <option>2027</option>
+             <option>2028</option>
+             <option>2029</option>
+             <option>2030</option>
+             <option>2031</option>
+             <option>2032</option>
+           </select>
+     </td>
+     <td>
+           <select id="expmonth" name="expmonth">
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5</option>
+             <option>6</option>
+             <option>7</option>
+             <option>8</option>
+             <option>9</option>
+             <option>10</option>
+             <option>11</option>
+             <option>12</option>
+           </select>
+     </td>
+    </tr>
+    </table>
+    </table> 
+  
+    <div id="feedback-section">
+	<h4>Got a sec? We’d be so happy to hear your feedback!&#128512</h4>
+	<textarea id="txt1" rows="8" cols="35" placeholder="Insert your message"></textarea>
+    </div>
+
+     </br></br>
+     <div id="container">
+        <button type="button" onclick="checkout()" id="checkoutb">Confirm and Pay</button>
+        <button type="button" onclick="cleanForm()" id="cleanform">Clean all</button>
+        <button type="button" onclick="getAllCustomers()" id="getAllCustomers">Get All Orders</button>
+        <div id="delete-section">
+          <input type="text" id="deleteId" placeholder="Enter ID to delete">
+          <button type="button" onclick="removeIdFunc()" id="delete">Delete</button>
+        </div>
+     </div>
+  
+   <p id="res"></p>
+   </br></br></br></br>
+   <!-- Closing "shared-background-section"<div> -->
+   </div>
+   </form>
+
+   <!-- Contact Section using <div> -->
+   <footer id="footer">
+    <h2 id="footer-title">Get in touch for inquiries.</h2>
+    <p>Follow us on Instagram: <a href="https://www.instagram.com/full.fashionnn?igsh=Y2xraXlyMTRzYjZv" target="_blank">Our Instagram!</a></p>
+    </br> </br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.834485276336!2d35.31708522465898!3d32.9289709762055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c31d36bd43d9d%3A0x67a7184e132c79e0!2sfullfashion!5e0!3m2!1siw!2sil!4v1747681155202!5m2!1siw!2sil" width="530" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </br>
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/17cyx7aieM6dsPmk5Ee8vG?utm_source=generator" width="35%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </br></br></br>
+    </br></br></br>
+    <p>&copy;2025 all the rights is saved.</p>
+   </footer>
+ </body>
+</html>
